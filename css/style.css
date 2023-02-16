@@ -1,0 +1,500 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+
+* {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+.login {
+
+  display: inline-block;
+   font-weight: bolder;
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+
+  color: rgb(0, 179, 255);
+}
+
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #FFFFFF;
+}
+
+body {
+  background: #FFFFFF;
+}
+
+section {
+  padding: 5rem 9%;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.heading::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: .1rem;
+  width: 100%;
+  background: #000;
+  z-index: -1;
+}
+
+.heading span {
+  font-size: 3rem;
+  color: #f00;
+  background: #000;
+  padding: .5rem 1.5rem;
+  border: 0.1rem solid #aaa;
+  border-radius: .5rem;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 7%;
+  z-index: 1000;
+  background: #FFFFFF;
+}
+section.banner
+{
+  background-image: url("../images/banner11.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000;
+
+  background-size: cover;
+  height: 500px;
+}
+.banner {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+.content5
+{
+  color:rgb(63, 8, 8);
+  background-color: #fff;
+  font-size: 300%;
+  margin-top: 10%;
+}
+
+.content3
+{
+  color: #FFFFFF;
+  position: relative;
+  font-size: 150%;
+  left:-50px;
+  top: -40px;
+
+}
+.content4
+{
+  color: #FFFFFF;
+  font-size: 100%;
+  left:-100px;
+  margin-bottom: -10%;
+  top: 40px;
+}
+input[type="text"]
+{
+  margin-top:2%;
+  border-radius: 25px 0 0 25px;
+  width: 300px;
+  height: 30px;
+}
+
+input[type="submit"]
+{
+  position: relative;
+  left: -5px;
+  border-radius:0 25px 25px 0;
+
+  width: 100px;
+  height: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #000;
+  color: #fff
+}
+input[type="text1"]
+{
+  position: relative;
+  border-radius: 25px 25px 25px 25px;
+  width: 500px;
+  height: 30px;
+  top: 100px;
+}
+
+input[type="submit1"]
+{
+  position: relative;
+  top: 100px;
+  left: -125px;
+  border-radius:25px 25px 25px 25px;
+  width: 120px;
+  height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #000;
+  color: #fff
+}
+.content2
+{
+  color: #000;
+  margin-top: 2%;
+}
+input[type="button"]
+{
+  margin-top:2%;
+  width: 150px;
+  background: #000;
+  height: 30px;
+  color: #fff
+}
+.header .logo {
+  font-weight: bolder;
+  color: rgb(0, 179, 255);
+  font-size: 2rem;
+}
+.header .navbar a {
+  display: inline-block;
+  padding: 2rem 2rem;
+  font-size: 1rem;
+  color: #000;
+}
+#menu-btn {
+  font-size: 5srem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+.about1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.about1 .image {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 10rem;
+  flex: 1 10rem;
+  position: relative;
+  right: -750px;
+  margin-top: -100px;
+}
+
+
+.about1 .image img {
+  height: 40rem;
+  width: 170%;
+  padding: 5rem;
+
+}
+
+.about1 .content {
+  -webkit-box-flex: 1;
+  padding: 15%;
+  -ms-flex: 1 1 42rem;
+  flex: 1 1 42rem;
+  position: relative;
+  left: -300px;
+  margin-top: -120px;
+}
+
+.about1 .content .title {
+  font-size: 4rem;
+  color: #000;
+  margin-top:1rem;
+}
+
+.about1 .content p {
+  font-size: 1.5rem;
+  color: #000;
+  padding: 1rem 0;
+  line-height: 2;
+}
+
+.about1 .content .box-container .box {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 20rem;
+  flex: 1 1 20rem;
+}
+
+.about1 .content .box-container .box h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* second about css */
+.about2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.about2 .image {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 10rem;
+  flex: 1 10rem;
+  position: relative;
+  margin-top: -350px;
+  left: -200px;
+}
+
+
+.about2 .image img {
+  height: 40rem;
+  width: 170%;
+  padding: 5rem;
+}
+
+.about2 .content {
+  -webkit-box-flex: 1;
+  padding: 15%;
+  -ms-flex: 1 1 42rem;
+  flex: 1 1 42rem;
+  position: relative;
+  right: 120px;
+  margin-top: -370px;
+}
+
+.about2 .content .title {
+  font-size: 4rem;
+  color: #000;
+  margin-top:1rem;
+}
+
+.about2 .content p {
+  font-size: 1.5rem;
+  color: #000;
+  padding: 1rem 0;
+  line-height: 2;
+}
+
+.about2 .content .box-container .box {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 20rem;
+  flex: 1 1 20rem;
+}
+
+.about2 .content .box-container .box h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+/* about 3 css */
+/* 
+.about3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.about3 .image {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 10rem;
+  flex: 1 10rem;
+  position: relative;
+  right: -750px;
+  margin-top: -350px;
+}
+
+
+.about3 .image img {
+  height: 40rem;
+  width: 170%;
+  padding: 5rem;
+}
+
+.about3 .content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 42rem;
+  flex: 1 1 42rem;
+  position: relative;
+  padding: 15%;
+  left: -300px;
+  margin-top: -350px;
+}
+
+.about3 .content .title {
+  font-size: 4rem;
+  color: #000;
+  margin-top:1rem;
+}
+
+.about3 .content p {
+  font-size: 1.5rem;
+  color: #000;
+  padding: 1rem 0;
+  line-height: 2;
+}
+
+.about3 .content .box-container .box {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 20rem;
+  flex: 1 1 20rem;
+}
+
+.about3 .content .box-container .box h3 {
+  font-size: 2rem;
+  color: #fff;
+} */
+/* fourth about css */
+/* .about4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.about4 .image {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 10rem;
+  flex: 1 10rem;
+  position: relative;
+  left: -250px;
+  margin-top: -350px;
+}
+
+
+.about4 .image img {
+  height: 40rem;
+  width: 170%;
+  padding: 5rem;
+}
+
+.about4 .content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 42rem;
+  flex: 1 1 42rem;
+  position: relative;
+  padding: 15%;
+  right: 120px;
+  margin-top: -370px;
+}
+
+.about4 .content .title {
+  font-size: 4rem;
+  color: #000;
+  margin-top:1rem;
+}
+
+.about4 .content p {
+  font-size: 1.5rem;
+  color: #000;
+  padding: 1rem 0;
+  line-height: 2;
+}
+
+.about4 .content .box-container .box {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 20rem;
+  flex: 1 1 20rem;
+}
+
+.about4 .content .box-container .box h3 {
+  font-size: 2rem;
+  color: #fff;
+} */
+
+section.banner1
+{
+  background-color: rgb(0, 179, 255);
+  background-size: cover;
+}
+.banner1 {
+  position: relative;
+  height:120px;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;}
+  
+
+.credit {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0.5rem;
+  color: #000;
+  background: #fff;
+}
+
+.credit span {
+  color: #f00;
+}
+
+
+div#content {
+  margin-bottom: 0;
+}
+div#comments {
+  margin-top: 0;
+}
